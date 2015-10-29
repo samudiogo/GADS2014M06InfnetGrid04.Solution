@@ -3,8 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{8492DB89-136A-4804-9A5A-2F198E53DA2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{356695DC-58DD-4B0E-AB47-16EB34874538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GADS2014M06InfnetGrid04.Domain", "GADS2014M06InfnetGrid04.Domain\GADS2014M06InfnetGrid04.Domain.csproj", "{F1FA73FF-F9BA-494E-A9DB-846332550E2D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1FA73FF-F9BA-494E-A9DB-846332550E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FA73FF-F9BA-494E-A9DB-846332550E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FA73FF-F9BA-494E-A9DB-846332550E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FA73FF-F9BA-494E-A9DB-846332550E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1FA73FF-F9BA-494E-A9DB-846332550E2D} = {356695DC-58DD-4B0E-AB47-16EB34874538}
 	EndGlobalSection
 EndGlobal
