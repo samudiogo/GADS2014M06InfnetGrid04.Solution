@@ -49,6 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GADS2014M06InfnetGrid04.Domain\GADS2014M06InfnetGrid04.Domain.csproj">
+      <Project>{f1fa73ff-f9ba-494e-a9db-846332550e2d}</Project>
+      <Name>GADS2014M06InfnetGrid04.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
