@@ -14,6 +14,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula 05", "Aula 05", "{0F228DC3-18B8-4A65-B891-A13A8F7132B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula 06", "Aula 06", "{2D9E9E5D-D03F-4307-82FF-9FB84ED6544D}"
+	ProjectSection(SolutionItems) = preProject
+		aula-teorica-confira-os-slides-no-moodle.md = aula-teorica-confira-os-slides-no-moodle.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula 07", "Aula 07", "{33A7F6BF-A5C6-4455-A532-5E54F87B186B}"
 EndProject
@@ -32,6 +35,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{5646084E-8F72-4331-8F45-84A019E4E925}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GADS2014M06InfnetGrid04.Aula08.Domain", "GADS2014M06InfnetGrid04.Aula08.Domain\GADS2014M06InfnetGrid04.Aula08.Domain.csproj", "{F4FBB085-66B6-4435-8BCE-89E8DF273704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GADS2014M06InfnetGrid04.Aula08.Presentation.ConsoleApp", "GADS2014M06InfnetGrid04.Aula08.Presentation.ConsoleApp\GADS2014M06InfnetGrid04.Aula08.Presentation.ConsoleApp.csproj", "{6BF0311B-EF3F-4B7C-AC15-256691E99083}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +64,10 @@ Global
 		{F4FBB085-66B6-4435-8BCE-89E8DF273704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4FBB085-66B6-4435-8BCE-89E8DF273704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4FBB085-66B6-4435-8BCE-89E8DF273704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF0311B-EF3F-4B7C-AC15-256691E99083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF0311B-EF3F-4B7C-AC15-256691E99083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF0311B-EF3F-4B7C-AC15-256691E99083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF0311B-EF3F-4B7C-AC15-256691E99083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +84,6 @@ Global
 		{AE95F854-9271-4F2C-B2B7-1DE2A100D3A1} = {5E0D5435-451F-4F40-BA12-3BF6D7A19CE1}
 		{5646084E-8F72-4331-8F45-84A019E4E925} = {5E0D5435-451F-4F40-BA12-3BF6D7A19CE1}
 		{F4FBB085-66B6-4435-8BCE-89E8DF273704} = {5646084E-8F72-4331-8F45-84A019E4E925}
+		{6BF0311B-EF3F-4B7C-AC15-256691E99083} = {AE95F854-9271-4F2C-B2B7-1DE2A100D3A1}
 	EndGlobalSection
 EndGlobal
