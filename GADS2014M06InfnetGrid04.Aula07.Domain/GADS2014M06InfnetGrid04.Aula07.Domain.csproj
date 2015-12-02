@@ -41,6 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entidades\Aluno.cs" />
+    <Compile Include="Entidades\Professor.cs" />
+    <Compile Include="Interfaces\IAluno.cs" />
+    <Compile Include="Interfaces\IPessoa.cs" />
+    <Compile Include="Interfaces\IProfessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

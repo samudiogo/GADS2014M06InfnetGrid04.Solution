@@ -1,8 +1,9 @@
 ﻿using System;
+using GADS2014M06InfnetGrid04.Aula07.Domain.Interfaces;
 
 namespace GADS2014M06InfnetGrid04.Aula07.Domain.Entidades
 {
-    public class Aluno
+    public class Aluno: IPessoa, IAluno
     {
         public int AlunoId { get; set; }
         public string Nome { get; set; }
